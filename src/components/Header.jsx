@@ -8,7 +8,7 @@ const Header = () => {
   const {products} = useShop()
   return (
     <div className='header'>
-        <Link to='/' className='logo'>Logo</Link>
+        <Link to='/' className='logo'>E-Commerce</Link>
         <div className="items">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
